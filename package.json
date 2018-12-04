@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/wwlh200/A-front-end-algorithm-every-day#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.0",
-    "babel-loader": "^7.1.5",
-    "babel-preset-es2015": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-core": "^6.26.0",
     "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0"
+    "gulp-babel": "^7.0.1"
   }
 }
