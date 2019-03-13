@@ -1,6 +1,5 @@
 
 # 生命周期
----
 ## 一、组件初始化(initialization)阶段
 - constructor
   1. super(props)  
