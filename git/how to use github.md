@@ -1,4 +1,3 @@
-[TOC]
 ## how to create .gitignore
 在需要创建 .gitignore 文件的文件夹, 右键选择Git Bash 进入命令行
 ```
