@@ -1,6 +1,5 @@
 # front-end-share-every-day
 front-end share every day  
-Tech list:
 ## css
 - [css样式架构方案](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/css/css%E6%A0%B7%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88.md)
 ## git
