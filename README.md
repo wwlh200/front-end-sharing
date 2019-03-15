@@ -12,5 +12,4 @@ front-end share every day
 - [react虚拟DOM与diff算法](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/react/react%E8%99%9A%E6%8B%9FDOM%E4%B8%8Ediff%E7%AE%97%E6%B3%95.md)
 - [react高阶组件](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/react/react%E9%AB%98%E9%98%B6%E7%BB%84%E4%BB%B6.md)
 ## perfermance
-- [JavaScript 防抖与节流](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/react/react%E9%AB%98%E9%98%B6%E7%BB%84%E4%BB%B6.md)
-
+- [JavaScript 防抖与节流](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/perfermance/JavaScript%20%E9%98%B2%E6%8A%96%E4%B8%8E%E8%8A%82%E6%B5%81.md)
