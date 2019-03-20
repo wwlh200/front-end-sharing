@@ -30,7 +30,7 @@ JavaScript 中的对象一般是可变的（Mutable），因为使用了引用�
     - 频繁操作state/store对象
     - 拷贝复杂对象  
 
-[后面将会对使用方案进行归纳](https://github.com/immutable-js/immutable-js)
+详细查看：[github文档](https://github.com/immutable-js/immutable-js)
 ### 使用React.Fragments避免不必要的标签包装
 ```
   public render() {
