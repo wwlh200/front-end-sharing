@@ -1,4 +1,5 @@
-# bundle-loader实现路由按需加载
+# react 路由
+## bundle-loader实现路由按需加载
 Bundle.js
 ```
 import { Component } from 'react';
@@ -94,6 +95,67 @@ const RouterSwitch = () => (
 render(
     <Provider store={ Store }>
         <RouterSwitch/>
+    </Provider>,
+    document.getElementById('content')
+);
+```
+## 使用import()实现按需加载
+```
+import React from 'react';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Store from './store/Store';
+
+
+// 按需加载component
+const asyncComponent = (getComponent) => {
+    return class AsyncComponent extends React.Component {
+        static Component = null;
+        state = { Component: AsyncComponent.Component };
+
+        componentWillMount() {
+            if (!this.state.Component) {
+                getComponent().then(({ default: Component }) => {
+                    AsyncComponent.Component = Component
+                    this.setState({ Component })
+                })
+            }
+        }
+        render() {
+            const { Component } = this.state
+            if (Component) {
+                return <Component {...this.props} />
+            }
+            return null
+        }
+    }
+}
+
+const load = (component) => {
+    return import(`$conponents/${component}/`)
+}
+
+const Component1 = asyncComponent(() => load('Component1'));
+const Component2 = asyncComponent(() => load('Component2'));
+const Component3 = asyncComponent(() => load('Component3'));
+
+const RouterSwitch = () => (
+    <Router>
+        <div>
+            <Switch>
+                <Route exact path={'/test/Component1'} component={Component1} />
+                <Route exact path={'/test/Component2'} component={Component2} />
+                <Route exact path={'/test/Component3'} component={Component3} />
+            </Switch>
+        </div>
+    </Router>
+);
+
+render(
+    <Provider store={Store}>
+        <RouterSwitch />
     </Provider>,
     document.getElementById('content')
 );
