@@ -7,6 +7,7 @@ front-end share every day, and pursue better practice
 - [how to combine multiple commit](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/git/how%20to%20combine%20multiple%20commit.md)
 - [how to use github](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/git/how%20to%20use%20github.md)
 ## javascript
+- [js类型检查](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js类型检查.md)
 - [js闭包](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js闭包.md)
 ## perfermance
 - [javaScript 防抖与节流](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/perfermance/JavaScript%20%E9%98%B2%E6%8A%96%E4%B8%8E%E8%8A%82%E6%B5%81.md)
