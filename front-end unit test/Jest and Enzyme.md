@@ -161,7 +161,7 @@ Nock can be used to test modules that perform HTTP requests in isolation.
 
 For instance, if a module performs HTTP requests to a CouchDB server or makes HTTP requests to the Amazon API, you can test that module in isolation.  
 
-`https://github.com/nock/nock`
+[https://github.com/nock/nock](https://github.com/nock/nock)
 ## Packages Related to Unit Test
 - babel-polyfill	^6.26.0
 - redux-mock-store	^1.4.0
@@ -177,11 +177,11 @@ For instance, if a module performs HTTP requests to a CouchDB server or makes HT
 
 ## Jest Configuration and Common methods
 ### configuration instruction
-`https://jestjs.io/docs/en/configuration`
+[https://jestjs.io/docs/en/configuration](https://jestjs.io/docs/en/configuration)
 ### Jest.config.js 
-`https://github.com/wwlh200/react-shared-lib/blob/master/jest.config.js`
+[https://github.com/wwlh200/react-shared-lib/blob/master/jest.config.js](https://github.com/wwlh200/react-shared-lib/blob/master/jest.config.js)
 ### Setup 
-`https://github.com/wwlh200/react-shared-lib/blob/master/test/setup.js`
+[https://github.com/wwlh200/react-shared-lib/blob/master/test/setup.js](https://github.com/wwlh200/react-shared-lib/blob/master/test/setup.js)
 ### Common Methods
 #### methods
 ```
