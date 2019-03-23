@@ -2,6 +2,8 @@
 front-end share every day, and pursue better practice 
 ## css
 - [css样式架构方案](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/css/css%E6%A0%B7%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88.md)
+## front-end unit test
+- [Jest and Enzyme](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/front-end%20unit%20test/Jest%20and%20Enzyme.md#jest-configuration-and-common-methods)
 ## git
 - [how to add two account](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/git/how%20to%20add%20two%20account.md)
 - [how to combine multiple commit](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/git/how%20to%20combine%20multiple%20commit.md)
