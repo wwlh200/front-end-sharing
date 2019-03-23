@@ -1,6 +1,12 @@
 # Front-end Unit Test with Jest and Enzyme
-- [Jest and Enzyme Introduction](#how-to-change-properties-file)
-- [How to use in onboarding](#how-to-use-in-onboarding)
+- [Jest and Enzyme Introduction](#jest-and-enzyme-introduction)
+- [Compare Jest & Enzyme](#compare-jest--enzyme)
+- [Enzyme - Compare Shallow, Render and Mount](#enzyme---compare-shallow-render-and-mount)
+- [NOCK](#nock)
+- [Packages Related to Unit Test](#packages-related-to-unit-test)
+- [Jest Configuration and Common methods](#jest-configuration-and-common-methods)
+- [Mock Functions/Modules](#mock-functionsmodules)
+- [Error and Solution](#error-and-solution)
 ----
 ## Jest and Enzyme Introduction
 [Unit Test with Jest & Enzyme](http://wheeler-front-end.oss-cn-beijing.aliyuncs.com/Unit%20Test%20with%20Jest%20%26%20Enzyme.pptx)
