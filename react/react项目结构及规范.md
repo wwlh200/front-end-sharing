@@ -1,0 +1,66 @@
+# code standard and structure
+## Code folder structure standard
+### By category 
+- react
+    - actions
+        - Actions.js
+        - ActionTypes.js
+    - reducers
+        - some business-modules-Reducer.js
+        - Index.js
+    - components
+        - Root.jsx
+        - business-module-Pages
+            - views
+                - components
+                    - some components.jsx
+                - some pages.jsx
+    - styles
+        - base.less
+        - common.less
+        - some business-modules.less
+    - logic
+        - APICallLogic.js
+        - dataTransformLogic.js
+        - UIOperationLogic.js
+        - UIStatusLogic.js
+    - store
+        - InitalState.js
+        - Store.js
+- utils
+- Constants.js
+- Index.jsx
+### By function
+- react
+    - actions
+        - Actions.js
+        - ActionTypes.js
+    - reducers
+        - some business-modules-Reducer.js
+        - Index.js
+    - components
+        - Root.jsx
+        - base.less
+        - common.less
+        - business-module-Pages
+            - views
+                - components
+                    - some components.jsx
+                - some pages.jsx
+                - style.less
+                - Actions.js
+                - ActionTypes.js
+                - Reducer.js
+    - logic
+        - APICallLogic.js
+        - dataTransformLogic.js
+        - UIOperationLogic.js
+        - UIStatusLogic.js
+    - store
+        - InitalState.js
+        - Store.js
+- utils
+- Constants.js
+- Index.jsx
+## Code style:React/JSX Style Guide
+[airbnb代码规范标准](https://github.com/airbnb/javascript/tree/master/react)
