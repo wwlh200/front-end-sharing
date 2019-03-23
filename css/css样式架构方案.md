@@ -1,4 +1,6 @@
 # CSS Architecture
+Global settings for all parts, separate some common settings to one file. It is easy to maintain.  
+Good CSS levels to avoid duplicate definition
 ## base.less - Provide style reset and atomic functions
 - the project module(.epc-page) styles
 - body styles
