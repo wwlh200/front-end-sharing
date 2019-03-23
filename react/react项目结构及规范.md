@@ -3,7 +3,7 @@
 ### By category 
 - react
     - actions
-        - Actions.js
+        - some business-modules-Actions.js
         - ActionTypes.js
     - reducers
         - some business-modules-Reducer.js
