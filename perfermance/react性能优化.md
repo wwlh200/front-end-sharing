@@ -84,5 +84,12 @@ render() {
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 ```
-## 工具层面上优化
-未完待续...
+## 工具层面上优化（具体案例后面会继续解决）
+### lodash-webpack-plugin
+### 代码分割
+### SSR服务器渲染
+### 延迟加载组件
+### 使用ServiceWorkers缓存应用程序状态
+### Gzip压缩
+### 使用Web Workers处理大批量数据的计算或渲染
+### 使用CDN加速
