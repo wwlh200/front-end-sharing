@@ -12,7 +12,7 @@ front-end share every day, and pursue better practice
 - [js this](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js-this.md)
 - [js类型检查](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js类型检查.md)
 - [js闭包](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js闭包.md)
-- [typescript常见用法](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/typescrpt常见用法.md)
+- [typescript常见用法](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/typescirpt常见用法.md)
 - [tyoescript泛型](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/typescript泛型.md)
 ## perfermance
 - [javaScript 防抖与节流](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/perfermance/JavaScript%20%E9%98%B2%E6%8A%96%E4%B8%8E%E8%8A%82%E6%B5%81.md)
