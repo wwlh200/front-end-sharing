@@ -84,9 +84,14 @@ render() {
     this.handleItemClick = this.handleItemClick.bind(this);
   }
 ```
-## 工具层面上优化（具体案例后面会继续解决）
+## 工具层面上优化（具体案例后面会继续更新）
 ### lodash-webpack-plugin
 ### 代码分割
+Reduce JavaScript Payloads with Code Splitting:https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/  
+[GWT] Code Splitting:http://www.gwtproject.org/doc/latest/DevGuideCodeSplitting.html  
+[Webpack] Code Splitting:https://webpack.js.org/guides/code-splitting/
+Async reducer implementation reference: http://nicolasgallagher.com/redux-modules-and-code-splitting/  
+Open source solution for universal rendering: https://eng.uber.com/fusionjs/
 ### SSR服务器渲染
 ### 延迟加载组件
 ### 使用ServiceWorkers缓存应用程序状态
