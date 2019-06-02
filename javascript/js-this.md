@@ -108,4 +108,6 @@ console.log(o.a, o.f(), o.g(), o.h()); // 37,37, azerty, azerty
 ### 总结
 - call和apply功能一样，只是参数不一样，参数少用call,参数多用apply  
 - bind这是固定指向
+## 箭头函数
+在arrow函数中，它保留了所包含的词法上下文的值this。
 
