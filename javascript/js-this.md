@@ -78,7 +78,7 @@ apply：调用一个对象的一个方法，用另一个对象替换当前对象
 ```
 fun.bind(thisArg[, arg1[, arg2[, ...]]])
 ```
-thisArg 当绑定函数被调用时，该参数会作为原函数运行时的 this 指向。当使用new 操作符调用绑定函数时，该参数无效。
+- thisArg 当绑定函数被调用时，该参数会作为原函数运行时的 this 指向。当使用new 操作符调用绑定函数时，该参数无效。
 ```
     function A(name) {
         return 'A'+name;
@@ -89,6 +89,21 @@ thisArg 当绑定函数被调用时，该参数会作为原函数运行时的 th
     }
     console.log((A.bind(B,'B'))()); // AB
     console.log((B.bind(A,['A']))()); // BA
+```
+- 调用多次bind创建的函数，它将永久绑定到bind的第一个参数，而不管函数是如何使用的。
+```
+function f() {
+  return this.a;
+}
+
+var g = f.bind({a: 'azerty'});
+console.log(g()); // azerty
+
+var h = g.bind({a: 'yoo'}); // bind only works once!
+console.log(h()); // azerty
+
+var o = {a: 37, f: f, g: g, h: h};
+console.log(o.a, o.f(), o.g(), o.h()); // 37,37, azerty, azerty
 ```
 ### 总结
 - call和apply功能一样，只是参数不一样，参数少用call,参数多用apply  
