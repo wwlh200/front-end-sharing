@@ -1,5 +1,5 @@
-# front-end-share-every-day
-front-end share every day, and pursue better practice 
+# front-end-share
+front-end share, and pursue better practice 
 ## common
 
 ## css
