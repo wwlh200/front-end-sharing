@@ -9,7 +9,7 @@
 如果报错，就在git bash here 里面执行这句话
 - ssh-agent bash
 - ssh-add ~/.ssh/id_rsa2
-### config file
+### config file（注意，是config, 而不是.config）
 Host    　　主机别名  
 HostName　　服务器真实地址  
 IdentityFile　　私钥文件路径  
