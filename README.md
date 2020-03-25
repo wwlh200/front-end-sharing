@@ -13,6 +13,7 @@ front-end share, and pursue better practice
 ## javascript
 - [js this](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js-this.md)
 - [js类型检查](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js类型检查.md)
+- [js执行过程](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js执行过程.md)
 - [js闭包](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/js闭包.md)
 - [typescript常见用法](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/typescirpt常见用法.md)
 - [typescript泛型](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/javascript/typescript泛型.md)
