@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>固定定位</title>
+    <!--元素框不再占有文档流位置，并且相对于视窗进行定位-->
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .container{
+            position: relative;
+            margin-left: 50px;
+            width: 100%;
+            height: 500px;
+            background-color: blue;
+        }
+        .content{
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            top: 20px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content"></div>
+    </div>
+</body>
+</html>

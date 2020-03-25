@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>粘性定位</title>
+    <!--相当于relative和fixed混合,粘性定位的元素是依赖于用户的滚动-->
+    <!--而当页面滚动超出目标区域时，它的表现就像 position:fixed;，-->
+    <style>
+        html,body{
+            width: 100%;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: 2000px;
+            background-color: blue;
+        }
+        .content{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .content-sticky{
+            position: sticky;
+            position: -webkit-sticky; /* Safari */
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            top: 0;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content"></div>
+        <div class="content-sticky"></div>
+    </div>
+</body>
+</html>

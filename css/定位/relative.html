@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相对定位</title>
+    <!--元素框相对于之前正常文档流中的位置发生偏移，并且原先的位置仍然被占据。发生偏移的时候，可能会覆盖其他元素-->
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: 500px;
+            background-color: blue;
+        }
+        .content{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+        .content-relative{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content"></div>
+        <div class="content-relative"></div>
+        <div class="content"></div>
+    </div>
+</body>
+</html>
