@@ -1,9 +1,9 @@
 # front-end-share
 front-end share, and pursue better practice 
 ## architecture
-
+- [设计模式在前端开发中的实践](https://github.com/wwlh200/front-end-sharing/blob/master/architecture/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%9C%A8%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%B8%AD%E7%9A%84%E5%AE%9E%E8%B7%B5.pptx)
 ## common
-
+- [vscode常用插件](https://github.com/wwlh200/front-end-sharing/blob/master/common/vscode%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.md)
 ## css
 - [css样式架构方案](https://github.com/wwlh200/front-end-sharing-every-day/blob/master/css/css%E6%A0%B7%E5%BC%8F%E6%9E%B6%E6%9E%84%E6%96%B9%E6%A1%88.md)
 ## front-end unit test
